@@ -16,11 +16,6 @@ It features a public-facing feedback submission form and a secure, beautifully d
 
 ---
 
-## 📸 Screenshots
-
-| Public Feedback Form | Admin Dashboard |
-| -------------------- | --------------- |
-| *(Add your screenshot here)* | *(Add your screenshot here)* |
 
 ---
 
