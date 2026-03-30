@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  server:
+    build: ./server
+    ports:
+      - "5000:5000"
+    env_file:
+      - ./server/.env
+    networks:
+      - feedpulse-net
+
+  client:
+    build: ./client
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_API_URL=http://localhost:5000/api
+    networks:
+      - feedpulse-net
+    depends_on:
+      - server
+
+networks:
+  feedpulse-net:
+    driver: bridge
