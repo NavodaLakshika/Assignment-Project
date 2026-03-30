@@ -16,9 +16,6 @@ It features a public-facing feedback submission form and a secure, beautifully d
 
 ---
 
-
----
-
 ## ⚙️ Environment Variables
 
 To run this project, you will need to add the following environment variables.
