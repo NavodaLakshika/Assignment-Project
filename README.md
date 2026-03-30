@@ -16,28 +16,6 @@ It features a public-facing feedback submission form and a secure, beautifully d
 
 ---
 
-## ⚙️ Environment Variables
-
-To run this project, you will need to add the following environment variables.
-
-### Backend (`server/.env`)
-```env
-PORT=5000
-MONGODB_URI=your_mongodb_connection_string
-GEMINI_API_KEY=your_google_ai_studio_api_key
-JWT_SECRET=your_jwt_secret_key
-ADMIN_USERNAME=admin
-ADMIN_PASSWORD=admin123
-NODE_ENV=development
-```
-
-### Frontend (`client/.env.local`)
-```env
-NEXT_PUBLIC_API_URL=http://localhost:5000/api
-```
-
----
-
 ## 💻 How to Run Locally
 
 ### Approach 1: Standard Node.js Setup
